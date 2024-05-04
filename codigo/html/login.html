@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/css/login.css" />
+  <link rel="stylesheet" href="/css/modal.css" />
+  <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+  <title>Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <h1>Entrar</h1>
+      <div id="msgError"></div>
+      <br>
+      <div>
+        <input type="text" id="usuario" placeholder="Digite o usuario" required />
+        <label id="userLabel" for="usuario"></label>
+      </div>
+      <br>
+      <div class="label-float">
+        <input type="password" id="senha" placeholder="Digite a senha" required />
+        <label id="senhaLabel" for="senha"></label>
+        <i class="fa fa-eye" aria-hidden="true" onclick="togglePasswordVisibility()"></i>
+      </div>
+      <br>
+      <div class="justify-center btn btn-primary">
+        <span onclick="entrar()">Entrar</span>
+      </div>
+      <br>
+      <div class="justify-center btn btn-primary">
+        <span type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          botão modal teste
+        </span>
+      </div>
+      <div>
+        <hr />
+      </div>
+      <p> Não tem uma conta? <a href="/html/cadastro.html">Cadastre-se</a></p>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="">Título modal com scroll</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fechar"></button>
+        </div>
+        <div class="modal-body">
+          <p id="textoModal">Aqui será exibido o texto digitado, falta salvar em cache e formatar o diálogo.</p>
+        </div>
+        <div class="modal-footer">          
+          <textarea id="campoTexto" contenteditable="true" style="height: 52px;width: 85%" placeholder="Escreva aqui a sua duvida..."></textarea>          
+          <img class="bt-enviar" style="border-radius: 50%; width: 8%;" src="/imagens/icons8-send-50.png" alt="img-send">
+        </div>
+      </div>
+    </div>
+  </div>
+  <img class="logo-dengosa" src="/imagens/dengosa 1.png" alt="logo-dengosa">
+  <!-- <script src="/js/modal.js"></script> -->
+  <script src="/js/login.js"></script>
+  <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <div class=" position-fixed bottom-0 " style="margin: 0% 0% 10% 80%; " >
+    <button class="btn btn-bd-primary py-2 d-flex align-items-center" id="bd-theme" type="button" aria-expanded="true" data-bs-toggle="dropdown" aria-label="Toggle theme (light)">
+      
+        <img src="/imagens/Rectangle 89.jpg" style=" width: 100%; "></img>
+      
+    </button>
+    
+  </div>
+
+    
+  </div>
+</body>
+</html>

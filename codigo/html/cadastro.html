@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/cadastro.css" />
+    <link rel="stylesheet" href="/bootstrap/css/bootstrap.css" />
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastrar</h1>
+
+            <div id="msgError"></div>
+            <div id="msgSuccess"></div>
+
+            <div class="label-float">
+                <input type="text" id="nome" placeholder="Digite o nome" required />
+                <label for="nome"></label>
+            </div>
+            <br>
+
+            <div class="label-float">
+                <input type="text" id="usuario" placeholder="Digite o usuário" required />
+                <label for="usuario"></label>
+            </div>
+            <br>
+
+            <div class="label-float">
+                <input type="password" id="senha" placeholder="Digite a senha" required />
+                <label for="senha"></label>
+                <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            <br>
+
+            <div class="label-float">
+                <input type="password" id="confirmSenha" placeholder="Confirmar senha" required />
+                <label for="confirmSenha"></label>
+                <i id="verConfirmSenha" class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            <br>
+
+            <div class="justify-center btn btn-primary">
+                <span onclick="cadastrar()">Cadastrar</span>
+            </div>
+
+            <div>
+                <hr />
+            </div>
+
+            <p>Já tem uma conta? <a href="/html/login.html">Faça o login</a></p>
+        </div>
+    </div>
+    <img class="logo-dengosa" src="/imagens/dengosa 1.png" alt="logo-dengosa">
+    <script src="/js/cadastro.js"></script>
+</body>
+</html>
