@@ -1,0 +1,46 @@
+header {
+    height: 120px;
+    background-color: gray;
+}
+
+.menu-principal {
+    float: right;
+}
+
+.menu-principal > ul > li {
+    display: inline-block;
+    padding: 8px;
+
+}
+
+.menu-principal > ul > li:hover {
+    background-color: green;
+
+}
+
+main {
+    
+    background-color: orange;
+
+}
+
+.produto-item {
+    width: 220px;
+    height: 160px;
+    padding: 0 10px;
+    float: left;
+}
+
+img {
+    width: 200px;
+}
+.box-cliente {
+    width: 300px;
+    float: left;
+}
+
+footer {
+    clear: both;
+    height: 80px;
+    background-color: aqua;
+}
