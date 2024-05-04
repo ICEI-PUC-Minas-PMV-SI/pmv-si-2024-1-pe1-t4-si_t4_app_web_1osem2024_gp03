@@ -92,7 +92,8 @@ function cadastrar(){
     
    
     msgSucesso.setAttribute('style', 'display: block')
-    msgSucesso.innerHTML = '<strong style="text-align: center;">Cadastrando usuário...</strong>'
+    msgSucesso.setAttribute('style', 'text-align: center')
+    msgSucesso.innerHTML = '<strong> Cadastrando usuário...</strong>'
     msgError.setAttribute('style', 'display: none')
     msgError.innerHTML = ''
     

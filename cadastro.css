@@ -29,7 +29,8 @@ input[type=text]{
     width: 50%;
     margin-left: 25%;
     padding: 6px 20px ;    
-   
+    border-radius: 5px;
+    border-width: 1px;
     background-color: #adf5f5;
 }
 
@@ -38,7 +39,8 @@ input[type=password]{
     width: 50%;
     margin-left: 25%;
     padding: 6px 20px ;   
-    
+    border-radius: 5px;
+    border-width: 1px;
     background-color: #adf5f5;
 }
 

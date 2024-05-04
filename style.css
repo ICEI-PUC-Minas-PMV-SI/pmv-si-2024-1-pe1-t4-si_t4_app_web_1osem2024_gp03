@@ -17,6 +17,10 @@ header {
     background-color: green;
 
 }
+.menu-principal > ul > span:hover {
+    background-color: green;
+
+}
 
 main {
     
