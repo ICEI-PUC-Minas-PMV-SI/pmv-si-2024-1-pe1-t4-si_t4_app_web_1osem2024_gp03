@@ -92,13 +92,12 @@ function cadastrar(){
     
    
     msgSucesso.setAttribute('style', 'display: block')
-    msgSucesso.setAttribute('style', 'text-align: center')
-    msgSucesso.innerHTML = '<strong> Cadastrando usuário...</strong>'
+    msgSucesso.innerHTML = '<strong style="text-align: center;">Cadastrando usuário...</strong>'
     msgError.setAttribute('style', 'display: none')
     msgError.innerHTML = ''
     
     setTimeout(()=>{
-        window.location.href = 'login.html'
+        window.location.href = '../html/login.html'
     }, 3000)
   
     

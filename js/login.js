@@ -42,7 +42,7 @@ function entrar(){
   })
    
   if(usuario.value == userValid.user && senha.value == userValid.senha){
-    window.location.href = 'pagina.html'
+    window.location.href = '../html/pagina.html'
     
     let mathRandom = Math.random().toString(16).substr(2)
     let token = mathRandom + mathRandom
