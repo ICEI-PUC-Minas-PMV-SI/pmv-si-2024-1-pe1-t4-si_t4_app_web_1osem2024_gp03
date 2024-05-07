@@ -1,8 +1,13 @@
+body{
+  background-color: rgb(71, 79, 194) !important;
+}
+
 .container{
-    
+    background-color: white;
     margin: 125px auto;
-    width: 300px;
-    
+    border-radius: 10px;
+    padding: 20px 0;
+    max-width: 700px !important;
 }
 
 h1 {
@@ -17,15 +22,26 @@ h1 {
     color: red;
 }
 
-input[type=text]{
-    
+.container input {
+
     position: relative;
     width: 50%;
     margin-left: 25%;
     padding: 6px 20px ;    
     border-radius: 5px;
     border-width: 1px;
-    background-color: #adf5f5;
+    background-color: #dcdbdb;
+}
+
+/* input[type=text]{
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    padding: 6px 20px ;    
+    border-radius: 5px;
+    border-width: 1px;
+    background-color: #ccc;
+    
 }
 
 input[type=password]{
@@ -35,14 +51,14 @@ input[type=password]{
     padding: 6px 20px ;   
     border-radius: 5px;
     border-width: 1px;
-    background-color: #adf5f5;
-}
+    background-color: #ccc;
+} */
 
 
 .justify-center{
 
     position: relative;
-    margin: auto;
+    margin-left: 45%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
         

@@ -1,62 +1,78 @@
-.titulo {
-  text-align: center;
-  margin-top: 10px;
-  font-size: 30px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
-.estrutura {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10%;
+
+body {
+  background-color: rgb(71, 79, 194);
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
-button {
-  align-items: center;
-  display: block;
-  margin-top: 150px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #0d6efd;
-  width: 250px;
-  height: 50px;
-  border-radius: 5px;
-  border-style: none;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-.link {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: #fff;
-  text-decoration: none;
-}
-/* .integrantes {
-  text-align: justify;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  margin-top: 150px;
-  text-decoration: wavy;
-} */
-.logo {
-  margin-right: 250px;
+
+
+/* Container */
+.container {
   display: flex;
-  margin-top: 250px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
-#dengosa {
-  scale: 0.3;
+
+/* Título */
+.title {
+  text-transform: uppercase;
 }
-#brasao {
-  margin-top: 50px;
-  scale: 0.5;
-  height: 80%;
+
+/* Card */
+.card {
+  background-color: white;
+  height: 600px;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  
 }
-.lista {
-  position: absolute;
-  left: 41%;
-  top: 45%;
-  list-style-type: none;
-  text-align: left;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 15px;
-  /* margin-top: 150px; */
-  text-decoration: wavy;
+.card li {
+  list-style: none;
+  text-align: center;
+  padding-top: 6px;
 }
+
+#teacher {
+  font-weight: bold;
+  border-bottom: 1px solid rgb(71, 79, 194);
+}
+
+.card a {
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  margin: 10px 0;
+  background-color: rgb(71, 79, 194);
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.card a:hover {
+  
+  background-color: rgb(90, 97, 192);
+}
+
+/* Footer */
+.images {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+}
+
+img {
+  width: 50px;
+}
+
