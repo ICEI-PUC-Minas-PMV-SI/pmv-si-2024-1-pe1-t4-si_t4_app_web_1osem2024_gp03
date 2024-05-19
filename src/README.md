@@ -1,1 +1,3 @@
-<a href="index.html"> Pagina do Projeto</a>
+# Direcionamento para o site do projeto
+
+* <a href="https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/src/index.html">Clique aqui!</a>
