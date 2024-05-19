@@ -46,7 +46,7 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Armazenamento do Código-Fonte
 
-* <a href="src/README.md">Código Fonte</a>
+* <a href="https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/blob/main/src/README.md">Código Fonte</a>
 
 # Armazenamento da Apresentação
 
