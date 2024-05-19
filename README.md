@@ -42,7 +42,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 
 # Hospedagem
 
-* Insira o endereço eletrônico público de acesso ao conteúdo publicado. 
+* Insira o endereço eletrônico público de acesso ao conteúdo publicado.
+* <a href="./src/index.html">Pagina do projeto</a>
 
 # Armazenamento do Código-Fonte
 
@@ -51,4 +52,3 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 # Armazenamento da Apresentação
 
 * <a href="presentation/README.md">Apresentação da solução</a>
-* <a href="./src/index.html">Pagina do projeto</a>
