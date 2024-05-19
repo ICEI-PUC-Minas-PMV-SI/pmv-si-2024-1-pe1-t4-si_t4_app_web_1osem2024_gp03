@@ -45,6 +45,8 @@ Assim que a primeira versão do sistema estiver disponível, deverá complementa
 * Insira o endereço eletrônico público de acesso ao conteúdo publicado.
 * <a href="./src/index.html">Pagina do projeto</a>
 
+* [Pagina do projeto](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/src/index.html)
+
 # Armazenamento do Código-Fonte
 
 * <a href="src/README.md">Código Fonte</a>
