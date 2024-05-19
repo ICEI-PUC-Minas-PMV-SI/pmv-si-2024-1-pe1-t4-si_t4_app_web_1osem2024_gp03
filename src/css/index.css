@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(71, 79, 194);
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+}
+
+
+/* Container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Título */
+.title {
+    text-transform: uppercase;
+}
+
+/* Card */
+.card {
+    background-color: white;
+    height: 600px;
+    border-radius: 10px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.card li {
+    list-style: none;
+    text-align: center;
+    padding-top: 6px;
+}
+
+#teacher {
+    font-weight: bold;
+    border-bottom: 1px solid rgb(71, 79, 194);
+}
+
+.card a {
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 10px 0;
+    background-color: rgb(71, 79, 194);
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+}
+
+.card a:hover {
+    
+    background-color: rgb(90, 97, 192);
+}
+
+/* Footer */
+.images {
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.logo_dengosa{
+    height: 50%;
+    width: 50%;
+    margin-top: 2%;
+}
+
+.logo_pucminas{
+    height: 100%;
+    width: 10%;
+}

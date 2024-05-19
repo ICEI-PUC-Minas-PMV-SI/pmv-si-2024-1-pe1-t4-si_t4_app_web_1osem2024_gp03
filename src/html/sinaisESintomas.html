@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sinais e sintomas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../css/sinais_sintomas.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar sticky-top navbar-light bg-white" id="Navbar1">
+        
+      <div class="container">
+        <a class="navbar-brand" href="">
+          <img src="../imagens/dengosa 1-2.png" alt="" width="200" height="45" id="LogoDengosaTop">
+        </a>
+
+          <div id="SearchDiv">
+              <img src="../imagens/image-removebg-preview (4) 1.png" alt="" width="30px" height="25px" id="SearchImage">
+              <form id="SearchForm">
+                  
+                  <input class="form-control me-2" type="search"  aria-label="Search" placeholder="pesquisa palavra-chave" id="SearchInput">
+                  <button type="button" class="btn btn-dark" id="SearchButton1">buscar</button>
+              </form>
+          </div>
+      </div>
+        
+
+      <div id="Navbar2">
+        <div class="row justify-content-end" id="itensnav2">
+            <div class="col-sm-auto ">Inicio</div>
+            <div id="meuBotao"> Chat Interativo</div>
+            <div class="col-sm-auto ">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  O quê você precisa saber
+                </button>
+
+                <ul class="dropdown-menu" id="DropDownMenuNav2"aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" id="DropItems" href="../html/sinaisESintomas.html">Sinais e sintomas</a></li>
+                  <li><a class="dropdown-item" id="DropItems" href="../html/tratamento.html">Tratamento</a></li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-sm-auto ">Vacinação</div>
+            <div class="col-sm-auto" id="lastnavitem">Situação epidemiológica</div>
+            <div class="col-sm-auto" id="lastnavitem" onclick="sair();">Logout</div>
+    </div>      
+  </nav>
+
+    <main>
+      <img class="img-sinais" src="../imagens/sinais.png" alt="" />
+      <div>
+        <div class="title">
+          <div class="img"></div>
+          <h1>Sinais e Sintomas</h1>
+        </div>
+        <div class="paragrafos">
+          <p>
+            A dengue é uma doença febril aguda, sistêmica, dinâmica, debilitante
+            e autolimitada. A maioria dos doentes se recupera, porém, parte
+            deles podem progredir para formas graves, inclusive virem a óbito. A
+            quase totalidade dos óbitos por dengue é evitável e depende, na
+            maioria das vezes, da qualidade da assistência prestada e
+            organização da rede de serviços de saúde.
+          </p>
+          <p>
+            Todo indivíduo que apresentar febre (39°C a 40°C) de início
+            repentino e apresentar pelo menos duas das seguintes manifestações
+            - dor de cabeça, prostração, dores musculares e/ou articulares e dor
+            atrás dos olhos – deve procurar imediatamente um serviço de saúde, a
+            fim de obter tratamento oportuno. No entanto, após o período febril
+            deve-se ficar atento. Com o declínio da febre (entre 3° e o 7° dia
+            do início da doença), sinais de alarme podem estar presentes e
+            marcar o início da piora no indivíduo. Esses sinais indicam o
+            extravasamento de plasma dos vasos sanguíneos e/ou
+            hemorragias, sendo assim caracterizados.
+          </p>
+        </div>
+        <div class="lista">
+          <ul style="list-style: disc">
+            <li>dor abdominal (dor na barriga) intensa e contínua; </li>
+            <li>vômitos persistentes; </li>
+            <li>
+              acúmulo de líquidos em cavidades corporais (ascite, derrame
+              pleural, derrame pericárdico); 
+            </li>
+            <li>hipotensão postural e/ou lipotímia;</li>
+            <li>letargia e/ou irritabilidade;</li>
+            <li>aumento do tamanho do fígado (hepatomegalia) > 2cm;</li>
+            <li>sangramento de mucosa;</li>
+            <li>aumento progressivo do hematócrito.</li>
+          </ul>
+          <img src="../imagens/image5.png" alt="" />
+        </div>
+      </div>
+      <div class="ultimoparagrafo"> 
+        <p>
+          Passada a fase crítica da dengue, o paciente entra na fase de
+          recuperação. No entanto, a doença pode progredir para formas
+          graves que estão associadas ao extravasamento grave de plasma,
+          hemorragias severas ou comprometimento de grave de órgãos, que podem
+          evoluir para o óbito do indivíduo.  Todas as faixas etárias são
+          igualmente suscetíveis à doença, porém indivíduos com condições
+          preexistentes com as mulheres grávidas, lactentes, crianças (até 2
+          anos) e pessoas > 65 anos têm maiores riscos de desenvolver
+          complicações pela doença.
+        </p>
+      </div>
+    </main> 
+    <footer>
+        <div class="container-footer">
+          <div class="img-footer">
+            <img src="../imagens/image-removebg-preview (4) 1.png" alt="">
+          </div>
+          <div class="info">
+            <p class="letra-info">Gestão de Sistema Informação</p>
+            <span class="tmn-gestao"></span> 
+            <p>Pontifica Universidade Católica</p>
+            <p>Belo Horizonte - Minas Gerais</p>
+          </div>
+          <div class="info-alunos">
+            <p class="letra-info">Alunos</p>
+            <span class="tmn-alunos"></span>
+            <div class="alunos">
+              <div>
+                <p>Anderson</p>
+                <p>Cariolina Aguiar</p>
+              </div>
+              <div>
+                <p>Pedro Araújo</p>
+                <p>Célia Diniz</p>
+              </div>
+              <div>
+                <p>Guilherme Cortezia</p>
+                <p>Guilherme Lacerda</p>
+              </div>
+            </div>
+          </div>
+          <div class="info-aplica">
+            <p class="letra-info">Aplicação Web</p>
+            <span class="tmn-aplica"></span> 
+            <p>Professor Nesley</p>
+          </div>
+        </div>
+        <div class="linha-azul"></div>
+    </footer>
+    <script src="../js/scriptpaginas.js"></script>
+    <script src="../js/modalchat.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
