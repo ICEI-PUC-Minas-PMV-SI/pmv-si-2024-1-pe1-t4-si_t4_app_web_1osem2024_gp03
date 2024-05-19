@@ -4,4 +4,4 @@
 
 # Direcionamento para o código-fonte
 
-* <a href="./src/index.html">Clique aqui!</a>
+* <a href="./index.html">Clique aqui!</a>
