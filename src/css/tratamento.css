@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 a {
     text-decoration: none;
@@ -87,7 +84,6 @@ ul{
 }
 
 #SearchForm{
-    /* This bit sets up the horizontal layout */
     display: flex;
     flex-direction: row;
     border: 1px solid grey;
@@ -98,9 +94,7 @@ ul{
 }
 
 #SearchInput{
-    /* Tell the input to use all the available space */
     flex-grow:2;
-    /* And hide the input's outline, so the form looks like the outline */
     border: none;
     outline: none;
     box-shadow: none;
@@ -214,7 +208,7 @@ main{
 
 .title {
     display: flex;
-    gap: 10px;
+    gap: 8px;
 }
 
 .img::before {
@@ -226,8 +220,8 @@ main{
 }
 
 .title h1 {
-    font-size: 60px;
-    font-weight: 500;
+    font-size: 45px;
+    font-weight: bold;
     margin-bottom: 15px;
 }
 
@@ -265,53 +259,14 @@ main{
     margin-top: 80px;
 }
 
-footer {
-    display: flex;
-    flex-direction: column;
-    background-color: #03009F;
-    color: #DCDCDC;
-    padding: 5px;
-    flex-wrap: wrap;
-}
 
-.container-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 30px;
-    flex-wrap: wrap;
-}
 
-.img-footer img{
-    width: 330px;
-}
 
 .info p {
     margin-top: 10px;
 }
 
-.letra-info {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 5px;
-    text-align: center;
-}
 
-.info-alunos {
-    display: flex;
-    flex-direction: column;
-}
-
-.alunos {
-    display: flex;
-    gap: 40px;
-    margin-top: 10px;
-}
-
-.info-aplica p{
-    margin-bottom: 20px;
-    margin-top: 1cqi;
-}
 
 .linha-azul {
     background-color: #02006C;
@@ -319,30 +274,6 @@ footer {
     width: 100%;
 }
 
-.tmn-alunos::before {
-    content: "";
-    height: 2px;
-    width: 28%;
-    background: white;
-    position: absolute;
-}
-
-.tmn-gestao::before {
-    content: "";
-    height: 2px;
-    width: 300px;
-    background: white;
-    position: absolute;
-}
-
-.tmn-aplica::before {
-    content: "";
-    height: 2px;
-    width: 130px;
-    background: white;
-    position: absolute;
-    margin-top: -15px;
-}
 
 .container-yellow {
     margin-top: 60px;
