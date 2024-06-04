@@ -1,0 +1,94 @@
+/* chat.css */
+
+/* Estilos globais */
+body {
+  background: linear-gradient(to bottom, #aaf2c9, #ffffff); /* Gradiente de verde claro para branco */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: #14326e;
+  margin-bottom: 20px;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Estilos da Navbar */
+.navbar {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos do chatbox */
+.chatbox {
+  border: 1px solid #ced4da;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.chatlogs {
+  max-height: 300px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ced4da;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.chatlogs p {
+  margin: 0 0 10px;
+  padding: 10px 15px;
+  border-radius: 20px;
+  background-color: #e9ecef;
+  display: inline-block;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.chatlogs .sent {
+  background-color: #007bff;
+  color: white;
+  align-self: flex-end;
+}
+
+.chatlogs .received {
+  background-color: #e9ecef;
+  color: #343a40;
+}
+
+/* Estilos do input e botão do chat */
+.input-group {
+  width: 100%;
+  display: flex;
+}
+
+#chatInput {
+  border: 1px solid #ced4da;
+  border-radius: 20px 0 0 20px;
+  padding: 10px 15px;
+  flex: 1;
+}
+
+#sendBtn {
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 0 20px 20px 0;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#sendBtn:hover {
+  background-color: #0056b3;
+}
+

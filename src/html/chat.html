@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cuidados para prevenir a dengue e um chat de ajuda sobre dengue.">
+  <meta name="author" content="Seu Nome">
+  <meta name="keywords" content="dengue, prevenção, saúde, chat de ajuda">
+  <title>DengosaChat</title>
+  <link rel="icon" href="../imagens/Chat.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/chat.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="../html/home.html">DENGOSA</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container mt-5">
+    <div class="row">
+      <section class="col-md-6">
+        <h2>Cuidados para Prevenir a Dengue</h2>
+        <ul>
+          <li>Eliminar água parada</li>
+          <li>Usar repelente regularmente</li>
+          <li>Utilizar telas de proteção nas janelas</li>
+          <li>Vedar caixas d'água</li>
+          <li>Manter piscinas limpas e tratadas</li>
+          <li>Usar roupas que cubram a maior parte do corpo</li>
+          <li>Evitar horários e locais com maior incidência de mosquitos</li>
+        </ul>
+      </section>
+      <section class="col-md-6">
+        <h2>Chat de Ajuda</h2>
+        <div id="chatbox" class="chatbox">
+          <div class="chatlogs">
+            <!-- Aqui serão adicionadas as mensagens -->
+          </div>
+          <div class="input-group mt-2">
+            <input type="text" id="chatInput" class="form-control" placeholder="Digite sua mensagem...">
+            <div class="input-group-append">
+              <button id="sendBtn" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <canvas id="canvas"></canvas>
+
+  <div id="result"></div>
+
+  <footer class="text-center mt-5">
+    <p>&copy; 2024 DENGOSA. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="../js/chat.js"></script>
+</body>
+</html>
