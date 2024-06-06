@@ -2,54 +2,68 @@
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+Este projeto busca a disseminação de informações sobre a dengue para a
+população através de um chatbot.
 
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
+A dengue é uma doença transmitida por mosquitos que representa um
+problema de saúde pública significativo em muitas partes do mundo, incluindo
+o Brasil. O chatbot oferece uma experiência conversacional de forma
+humanizada que instrui o usuário sobre prevenção e controle do vetor do vírus.
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+### 1. Maria 
+Maria é uma secretária de 32 anos, gestante e que possui 3 cachorros.
+Ela mora em uma área urbana com constantes focos de dengue. Maria
+se encaixa no grupo de risco da dengue. Apesar de ser uma doença de
+conhecimento geral, ela busca se prevenir contra o mosquito através de
+informações atualizadas e de fácil acesso.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+### 2. Antônio 
+Antônio é um aposentado de 72 anos, vivendo em uma área urbana
+isolada do centro de sua cidade, onde a dengue tem se proliferado
+rapidamente. Por sua idade avançada, saúde é uma preocupação
+constante e é crucial que ele esteja informado sobre epidemias.
 
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
+|EU COMO...          | QUERO/PRECISO ...                  |PARA ...                                |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Usuário do sistema  | Identificar um quadro de dengue    | Saber se há necessidade de ir ao hospital |
+|Administrador       | Atualizar informações sobre dengue | Manter o usuário informado a respeito da proliferação da doença |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
+### História 1
+Maria lê em um grupo de WhatsApp que o número de casos de dengue
+em seu bairro aumentou drasticamente. Preocupada por sua saúde e
+gestação, ela decide se informar para prevenir possíveis focos de
+dengue em sua residência.
+Maria encontra através da Dengosa inúmeras formas de prevenir que
+sua casa se torne um foco da doença. Ela põe em prática as
+recomendações de evitar água parada higienizando e trocando
+constantemente a água das vasilhas de água para os cachorros
+espalhadas pelos cômodos de sua casa.
+### História 2
+Depois de um estado febril durante a madrugada, Antônio acorda com
+uma leve dor de cabeça. Sem tempo e disposição para ir no hospital de
+imediato, ele inicia uma conversa com o ChatBot da Dengosa. Após o
+idoso relatar seus sintomas, o ChatBot identifica um possível quadro de
+dengue e recomenda a ida de Antônio ao hospital.
 
 ## Requisitos
 
 As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
 
+
 ### Requisitos Funcionais
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário se informe via chatbot | ALTA | 
+|RF-002| O chatbot deverá ter uma linguagem de fácil compreensão | ALTA |
+|RF-003| Enviar alertas automáticos aos usuários sobre surtos de dengue em sua localidade | MÉDIA |
+|RF-004| Divulgar pontos de vacinação contra a dengue | MÉDIA |
 
 
 ### Requisitos não Funcionais
@@ -57,22 +71,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-002| Manter o chatbot disponível 24 horas por dia 7 dias por semana para o acesso em qualquer horário |  ALTA | 
+|RNF-003| Possuir uma interface intuitiva, simples e prática |  MÉDIA |
+|RNF-004| A aplicação deverá lidar com grande volume de usuários simultâneos para casos de alta demanda |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
@@ -81,11 +83,6 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-
-
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+|02| A aplicação deverá seguir as diretrizes da Lei Geral de Proteção de Dados (LGPD) |
+|03| O projeto depende da disponibilidade de dados atualizados e confiáveis sobre a dengue |
+|03|A aplicação pode estar sujeita a regulamentação e revisão por autoridades da saúde |
