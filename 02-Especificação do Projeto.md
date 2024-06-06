@@ -44,6 +44,7 @@ sua casa se torne um foco da doença. Ela põe em prática as
 recomendações de evitar água parada higienizando e trocando
 constantemente a água das vasilhas de água para os cachorros
 espalhadas pelos cômodos de sua casa.
+
 ### História 2
 Depois de um estado febril durante a madrugada, Antônio acorda com
 uma leve dor de cabeça. Sem tempo e disposição para ir no hospital de
