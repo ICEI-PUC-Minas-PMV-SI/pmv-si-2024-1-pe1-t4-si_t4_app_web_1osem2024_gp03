@@ -47,14 +47,14 @@ Diante desse contexto, a criação da aplicação web com o objetivo de dissemin
 <li><a href="11-Referências.md"> Referências</a></li>
 </ol>
 
-# Hospedagem
-
+# Hospedagem 
+<!-- Checar o que é -->
 * [Pagina do projeto](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/src/index.html)
 
 # Armazenamento do Código-Fonte
-
+<!-- Checar o que é -->
 * [Código Fonte](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/blob/main/src/README.md)
 
 # Armazenamento da Apresentação
-
+<!-- Checar o que é -->
 * <a href="presentation/README.md">Apresentação da solução</a>
