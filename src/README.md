@@ -18,6 +18,7 @@ Diante desse contexto, a criação da aplicação web com o objetivo de dissemin
 * Guilherme Cortezia
 * Guilherme Lacerda de Souza
 * Lucas Gentil Lucena
+* Lucas Gill
 * Pedro Araújo de Gonçalves Faria
 
 ## Orientador
