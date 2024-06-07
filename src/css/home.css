@@ -7,10 +7,10 @@
     font-family: 'Noto Sans', sans-serif;
 }
 
-nav {
-    padding: 30px 15px;
-    position: fixed;
-    width: 100%;
+h1 {
+    font-size: 45px;
+    margin-left: 10px;
+    padding: 6px;
 }
 
 ul {
@@ -20,7 +20,6 @@ ul {
 a {
     text-decoration: none;
     cursor: pointer;
-    opacity: 0.9;
 }
 
 a:hover {
@@ -72,7 +71,6 @@ header a img {
     header {
         flex-direction: column;
         margin-bottom: 10px;
-
     }
 }
 
@@ -83,6 +81,9 @@ nav {
     justify-content: end;
     align-items: center;
     height: 2rem;
+    padding: 30px 15px;
+    position: fixed;
+    width: 100%;
 }
 
 @media (max-width: 600px) {
@@ -155,51 +156,29 @@ main {
     margin-top: 60px;
 }
 
+
 .nobackground {
     background-image: none;
     padding-top: 50px;
 }
 
-#sinais-e-sintomas {
+.banner-pic {
     background-image: none;
     padding-top: 20px;
 }
 
-h1 {
-    font-size: 45px;
-    margin-left: 10px;
-    padding: 6px;
-}
-
-
-#sinais-e-sintomas p {
+.banner-pic p {
     padding: 15px 0px;
     font-size: 1.5em;
 }
 
-#sinais-e-sintomas .img {
-    margin-top: 30px;
+.banner-pic img {
+    margin-bottom: 30px;
 }
 
 .title h1 {
     border-left: 5px solid #000d85;
     padding: 0px 10px;
-}
-
-#transmissao {
-    top: 160px;
-    height: 95px;
-    position: absolute;
-    width: 5px;
-    background-color: #000d85;
-}
-
-
-.img::before {
-    position: absolute;
-    width: 5px;
-    height: 65px;
-    background-color: #000d85;
 }
 
 .lista {
@@ -214,6 +193,11 @@ h1 {
     flex-direction: column;
     gap: 5px;
     font-size: 25px;
+}
+
+.lista h4 {
+    margin-left: -5%;
+
 }
 
 .lista img {
@@ -242,7 +226,7 @@ h1 {
 
 #card-container img {
     height: 300px;
-    width: 500px;
+    width: 400px;
 }
 
 .card {
@@ -265,7 +249,13 @@ h1 {
     padding: 10px 20px;
 }
 
+.quadrado-laranja {
+    background-color: rgb(252, 204, 116);
+    width: 900px;
+    height: 400px;
+}
 
+/* Default container */
 .container {
     width: 70%;
     margin: 0 auto;
@@ -286,6 +276,7 @@ h1 {
 
 .container img {
     width: 100%;
+    border-radius: 20px;
 }
 
 .container article p img {
@@ -329,7 +320,6 @@ h1 {
         display: block;
         min-width: 180px;
     }
-
 }
 
 /* Footer */
@@ -361,6 +351,11 @@ footer .materia {
 
 footer li {
     list-style: none;
+}
+
+footer td {
+    padding: 0px 20px;
+    text-align: start;
 }
 
 @media (max-width: 700px) {

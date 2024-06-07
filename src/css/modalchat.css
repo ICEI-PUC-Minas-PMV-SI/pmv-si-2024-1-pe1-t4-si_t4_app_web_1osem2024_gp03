@@ -27,28 +27,10 @@ body {font-family: Arial, Helvetica, sans-serif;}
     width: 60%; /* Você pode ajustar a largura conforme necessário */
   }
 
-/* O Botão Fechar */
-.fechar {
-  color: #aaaaaa;
-  float: right;
-  font-size: 28px;
-  font-weight: bold;
-}
-
-.fechar:hover,
-.fechar:focus {
-  color: #000;
-  text-decoration: none;
-  cursor: pointer;
-}
-
 /* Estilos adicionais do chatbot */
 .chatbot-container {
     
     width: 100%; /* Use 100% da largura do modal-conteudo */
-    
-    
-    overflow: auto; /* Habilitar rolagem se necessário */
     background-color: #f8e0e0;
     border: 1px solid #0a0101;
     border-radius: 5px;
@@ -181,4 +163,8 @@ p[sentTime]:hover::after {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
+}
+
+#meuModal {
+    display: block;
 }

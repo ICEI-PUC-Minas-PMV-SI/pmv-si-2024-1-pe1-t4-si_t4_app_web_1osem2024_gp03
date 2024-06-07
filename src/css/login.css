@@ -1,8 +1,31 @@
-.container{
-    
+body {
+    background-image: url('../imagens/wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.container {
     margin: 125px auto;
     width: 300px;
-    
+}
+
+
+.form {
+    width: 500px;
+    margin: 0 auto;
+    background-color: #5da8d7;
+    border-radius: 20px;
+    width: 700px;
+    padding: 20px;
+    color: white;
+}
+
+.form a {
+    color: white;
+    font-weight: 500;
 }
 
 h1 {
@@ -12,49 +35,49 @@ h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: large;
 }
-#msgError{
+
+#msgError {
     text-align: center;
     color: red;
 }
 
-input[type=text]{
-    
+input[type=text] {
+
     position: relative;
     width: 50%;
     margin-left: 25%;
-    padding: 6px 20px ;    
+    padding: 6px 20px;
     border-radius: 5px;
     border-width: 1px;
-    background-color: #adf5f5;
+    background-color: #ffffff;
 }
 
-input[type=password]{
+input[type=password] {
     position: relative;
     width: 50%;
     margin-left: 25%;
-    padding: 6px 20px ;   
+    padding: 6px 20px;
     border-radius: 5px;
     border-width: 1px;
-    background-color: #adf5f5;
+    background-color: #ffffff;
 }
 
 
-.justify-center{
-
-    position: relative;
-    margin: auto;
+.justify-center {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-        
-} 
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-p{
+p {
     text-align: center;
 }
 
-.logo-dengosa{
+.logo-dengosa {
     position: relative;
-    margin-top: -9%;
+    margin-top: -1%;
     margin-left: 40%;
     width: 20%;
 }
