@@ -353,6 +353,11 @@ footer li {
     list-style: none;
 }
 
+footer td {
+    padding: 0px 20px;
+    text-align: start;
+}
+
 @media (max-width: 700px) {
     footer {
         flex-direction: column;
