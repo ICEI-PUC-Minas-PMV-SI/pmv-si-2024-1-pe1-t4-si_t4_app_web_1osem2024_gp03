@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Localização</title>
     <link rel="stylesheet" type="text/css" href="../css/telamapa.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
+
 <body>
     <h1>Localização pelo CEP</h1>
     <form id="enderecoForm">
-        <label for="cep">CEP:</label><br>
-        <input type="text" id="cep" name="cep"><br>
-        <label for="endereco">Endereço:</label><br>
-        <input type="text" id="endereco" name="endereco"><br>
-        <label for="numero">Número:</label><br>
-        <input type="text" id="numero" name="numero"><br>
-        <label for="cidade">Cidade:</label><br>
-        <input type="text" id="cidade" name="cidade"><br>
-        <label for="bairro">Bairro:</label><br>
-        <input type="text" id="bairro" name="bairro"><br>
-        <label for="uf">UF:</label><br>
-        <input type="text" id="uf" name="uf"><br>
-        <input type="submit" value="Buscar UBSs próximas">
+        <div class="controlForm">
+         <div>
+             <label for="cep">CEP:</label>
+             <input type="text" id="cep" name="cep">
+         </div>
+         <div>
+             <label for="endereco">Endereço:</label>
+             <input type="text" id="endereco" name="endereco">
+         </div>
+         <div>
+             <label for="cidade">Cidade:</label>
+             <input type="text" id="cidade" name="cidade">
+         </div>
+         <div>
+             <label for="bairro">Bairro:</label>
+             <input type="text" id="bairro" name="bairro">
+         </div>
+         <div>
+             <label for="uf">UF:</label>
+             <input type="text" id="uf" name="uf">
+         </div>
+        </div>
+        <div class="btSend">
+            <input type="submit" value="Buscar UBSs próximas">
+        </div>
     </form>
-    <div id="mapa"></div>
-    <div id="ubs"></div>
+    <div class="results">
+        <div id="mapa"></div>
+        <div id="ubs"></div>
+    </div>
     <script src="../js/telamapa.js"></script>
 </body>
-</html>
 
+</html>
