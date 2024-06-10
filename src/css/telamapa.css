@@ -1,5 +1,16 @@
 body {
+    background-color: #74b6df;
     font-family: Arial, sans-serif;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1 {
+    text-align: center;
+    padding: 30px;
+    margin: 0;
+    width: 100%;
+    background-color: #3ea3e2;
 }
 
 form {
@@ -7,9 +18,42 @@ form {
 }
 
 #mapa {
-    width: 100%;
+    width: 80%;
     height: 400px;
     margin-bottom: 20px;
+    position: absolute;
+    border: 10px solid #178cd5;
+    border-radius: 30px;
+}
+
+input[type="submit"] {
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid yellow;
+    background-color: rgb(255, 255, 70);
+    cursor: pointer;
+}
+
+.controlForm {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.btSend {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.results {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #ubs {
