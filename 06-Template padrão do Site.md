@@ -2,7 +2,6 @@
 
 ## Design
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, 
 
 Caixa de login
 https://www.figma.com/design/2dWLztebiT80vROY7e94Pv/Dengo.SA?node-id=226-744&t=2F103MQlwWdN3jQQ-4
