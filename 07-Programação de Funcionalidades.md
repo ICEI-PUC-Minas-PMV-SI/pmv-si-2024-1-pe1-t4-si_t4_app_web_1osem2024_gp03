@@ -14,6 +14,12 @@ RF-006 	Tela Prevenção: Criação do HTML e CSS   prevencao.html
 RF-007 	Tela Sinais e Sintomas: Criação do HTML e CSS   sinais-e-sintomas.html   
 RF-008 	Tela Transmissão: Criação do HTML e CSS transmissao.html
 RF-009  Tela Tratamento: Criação do HTML e CSS  tratamento.html
+|ID    | Descrição do Requisito  | Prioridade |
+|------|-----------------------------------------|----|
+|RF-001| Permitir que o usuário se informe via chatbot | ALTA | 
+|RF-002| O chatbot deverá ter uma linguagem de fácil compreensão | ALTA |
+|RF-003| Enviar alertas automáticos aos usuários sobre surtos de dengue em sua localidade | MÉDIA |
+|RF-004| Divulgar pontos de vacinação contra a dengue | MÉDIA |
 
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
