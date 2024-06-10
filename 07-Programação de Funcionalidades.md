@@ -2,7 +2,7 @@
 
 ## Programação de funcionalidades estáticas
 
-A programação de funcionalidades estáticas consiste de execução de requisitos, conforme tabela abaixo:
+A programação de funcionalidades estáticas consiste na execução de requisitos, conforme tabela abaixo:
 
 |ID    | Descrição do Requisito  | Nome do Arquivo |
 |------|-----------------------------------------|----|
@@ -17,14 +17,13 @@ A programação de funcionalidades estáticas consiste de execução de requisit
 |RF-009| Tela Tratamento: Criação do HTML e CSS | tratamento.html |
 
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+## Programação de funcionalidades dinâmicas
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+A programação de funcionalidades dinâmicas consiste na execução de requisitos, conforme tabela abaixo:
 
-> **Links Úteis**: 
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+|ID    | Descrição do Requisito  | Nome do Arquivo |
+|------|-----------------------------------------|----|
+|RF-010| Validação formulário de cadastro: * Nome caracteres mínimos: 3 * Usuário caracteres mínimos: 5  * Senha caracteres mínimos: 6 |  cadastro.js | 
+|RF-011| Validação formulário de cadastro: Cadastro deve ser feito armazenando em localStorage através de Json | cadastro.js |
+|RF-012| ChatBot: Programação do chatBot | chat.html |
+|RF-013| Validação Login: Validar login do usuário procurando usuário e senha no localStorage | login.html |
