@@ -4,6 +4,10 @@ $(document).ready(function(){
 
     // Lista de palavras-chave e respostas correspondentes
     const keywords = {
+        'olá': 'Olá! Como posso ajudar você hoje?',
+        'bom dia': 'Bom dia! Como posso ajudar você hoje?',
+        'boa tarde': 'Boa tarde! Como posso ajudar você hoje?',
+        'boa noite': 'Boa noite! Como posso ajudar você hoje?',
         'dengue': 'Parece que você mencionou dengue. Posso ajudar com informações sobre isso.',
         'sintomas': 'Os sintomas da dengue incluem febre alta, dores musculares e articulares, dor de cabeça, dor atrás dos olhos e erupções cutâneas.',
         'tratamento': 'O tratamento da dengue inclui repouso, hidratação e medicamentos para aliviar a dor e a febre. Consulte um médico para orientações específicas.',
@@ -80,39 +84,3 @@ $(document).ready(function(){
         $(".chatlogs").scrollTop($(".chatlogs")[0].scrollHeight); // Rola o chatbox para o final, para exibir a mensagem mais recente
     }
 });
-
-const fileInput = document.getElementById('fileInput');
-const resultDiv = document.getElementById('result');
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
-
-// Adicionar listener para a mudança no input de arquivo
-fileInput.addEventListener('change', handleFile);
-
-// Função para lidar com a mudança no input de arquivo
-function handleFile(event) {
-    const files = event.target.files;
-    if (files.length === 0) {
-        console.error('Nenhum arquivo selecionado.');
-        return;
-    }
-
-    const file = files[0];
-    const reader = new FileReader();
-
-    reader.onload = function(e) {
-        const img = new Image();
-        img.onload = function() {
-            canvas.width = img.width;
-            canvas.height = img.height;
-            ctx.drawImage(img, 0, 0);
-            const imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
-            const colors = analyzeColors(imageData);
-            const hasDengue = checkForDengue(colors);
-            displayResult(hasDengue);
-        }
-        img.src = e.target.result;
-    }
-
-    reader.readAsDataURL(file);
-}
