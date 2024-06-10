@@ -4,7 +4,7 @@
 
 A programação de funcionalidades estáticas consiste de execução de requisitos, conforme tabela abaixo:
 
-ID 	Descrição do Requisito 	Nome do arquivo
+ID |	Descrição do Requisito  | 	Nome do arquivo
 RF-001  Tela Cadastro: Criação do HTML e CSS    cadastro.html
 RF-002  Tela Diagnóstico: Criação do HTML e CSS diagnostico.html
 RF-003 	Tela Locais de Vacinação: Criação do HTML e CSS locais-de-vacinacao.html
@@ -14,7 +14,7 @@ RF-006 	Tela Prevenção: Criação do HTML e CSS   prevencao.html
 RF-007 	Tela Sinais e Sintomas: Criação do HTML e CSS   sinais-e-sintomas.html   
 RF-008 	Tela Transmissão: Criação do HTML e CSS transmissao.html
 RF-009  Tela Tratamento: Criação do HTML e CSS  tratamento.html
-    
+
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
