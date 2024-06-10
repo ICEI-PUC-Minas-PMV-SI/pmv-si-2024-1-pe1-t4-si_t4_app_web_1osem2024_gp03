@@ -1,12 +1,26 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+## Programação de funcionalidades estáticas
+
+A programação de funcionalidades estáticas consiste de execução de requisitos, conforme tabela abaixo:
+
+ID 	Descrição do Requisito 	Nome do arquivo
+RF-001  Tela Cadastro: Criação do HTML e CSS    cadastro.html
+RF-002  Tela Diagnóstico: Criação do HTML e CSS diagnostico.html
+RF-003 	Tela Locais de Vacinação: Criação do HTML e CSS locais-de-vacinacao.html
+RF-004 	Tela Login: Criação do HTML e CSS   login.html
+RF-005 	Tela Chat: Criação do HTML e CSS    modalchat.html
+RF-006 	Tela Prevenção: Criação do HTML e CSS   prevencao.html
+RF-007 	Tela Sinais e Sintomas: Criação do HTML e CSS   sinais-e-sintomas.html   
+RF-008 	Tela Transmissão: Criação do HTML e CSS transmissao.html
+RF-009  Tela Tratamento: Criação do HTML e CSS  tratamento.html
+    
 
 Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
 
 Para cada requisito funcional, pode ser entregue um artefato desse tipo
 
-> **Links Úteis**:
+> **Links Úteis**: 
 >
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
 > - [JSON Tutorial](https://www.w3resource.com/JSON)
