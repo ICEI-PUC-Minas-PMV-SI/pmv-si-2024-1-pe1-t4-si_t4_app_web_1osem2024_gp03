@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dengosa - Cartão Virtual</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="../css/cartao.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                    <img src="../imagens/logopreto.png" alt="Agência de Saúde" style="height: 40px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home.html">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="hero" class="py-5 text-white text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h1 class="display-4">Cartão de Vacinação Virtual</h1>
+                    <p class="lead">Solicite e gerencie seu cartão de vacinação de forma prática e segura.</p>
+                    <button id="solicitar-btn" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#solicitarModal">Solicitar Agora</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-5">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="mb-4">Nossos Serviços</h2>
+                <p class="lead">Oferecemos soluções completas para seu cartão de vacinação digital.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-syringe fa-4x mb-3 text-primary"></i>
+                            <h4 class="card-title">Agendamento de Vacinas</h4>
+                            <p class="card-text">Agende suas vacinas de forma simples e rápida.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-id-card fa-4x mb-3 text-primary"></i>
+                            <h4 class="card-title">Emissão do Cartão</h4>
+                            <p class="card-text">Receba seu cartão de vacinação digital após a vacinação.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card h-100 shadow-sm">
+                        <div class="card-body text-center">
+                            <i class="fas fa-user-shield fa-4x mb-3 text-primary"></i>
+                            <h4 class="card-title">Segurança Garantida</h4>
+                            <p class="card-text">Seus dados de saúde são protegidos com criptografia.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popup de Solicitação de Cartão -->
+<div class="modal fade" id="solicitarModal" tabindex="-1" role="dialog" aria-labelledby="solicitarModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header bg-primary text-white">
+                <h5 class="modal-title" id="solicitarModalLabel">Cartão de Vacinação Digital</h5>
+                <button type="button" class="close text-white" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card">
+                    <div class="card-body">
+                        <form id="cartaoForm">
+                            <div class="form-group">
+                                <label for="nomeInput">Nome Completo</label>
+                                <input type="text" class="form-control" id="nomeInput" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cpfInput">CPF</label>
+                                <input type="text" class="form-control" id="cpfInput" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="cepInput">CEP</label>
+                                <input type="text" class="form-control" id="cepInput" required>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button type="button" class="btn btn-primary" id="salvarCartaoBtn">Salvar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal para exibir o cartão de vacinação -->
+<div id="modalCartao" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Cartão Dengosa</h2>
+        <ul>
+            <li><strong><i class="fas fa-user"></i> Nome:</strong> <span id="nome"></span></li>
+            <li><strong><i class="fas fa-id-card"></i> CPF:</strong> <span id="cpf"></span></li>
+            <li><strong><i class="fas fa-map-marker-alt"></i> CEP:</strong> <span id="cep"></span></li>
+            <!-- Adicionar mais informações conforme necessário -->
+        </ul>
+        <!-- Botão para baixar o cartão -->
+        <button id="downloadCartaoBtn" class="btn btn-primary">Baixar Cartão</button>
+    </div>
+</div>
+
+
+<section id="visualizar" class="py-5">
+    <div class="container text-center">
+        <button class="btn btn-primary btn-lg" id="visualizarCartaoBtn" data-toggle="modal" data-target="#visualizarModal">Visualizar meu Cartão</button>
+    </div>
+</section>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <p>&copy; 2024 Dengosa. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- jQuery e Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="../js/cartao.js"></script>
+    
+    </html>
