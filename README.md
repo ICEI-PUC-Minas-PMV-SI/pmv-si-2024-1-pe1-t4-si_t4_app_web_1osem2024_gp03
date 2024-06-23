@@ -50,7 +50,9 @@ Diante desse contexto, a criação da aplicação web com o objetivo de dissemin
 
 # Hospedagem 
 <!-- Checar o que é -->
-* [Pagina do projeto](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/src/index.html)
+* [Hospedagem - GitHub pages](https://icei-puc-minas-pmv-si.github.io/pmv-si-2024-1-pe1-t4-si_t4_app_web_1osem2024_gp03/src/index.html)
+
+* [Hospedagem - netlify](https://dengosa.netlify.app/)
 
 # Armazenamento do Código-Fonte
 <!-- Checar o que é -->
