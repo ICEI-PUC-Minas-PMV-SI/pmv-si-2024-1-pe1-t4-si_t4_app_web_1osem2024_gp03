@@ -7,6 +7,20 @@ header {
 header .navbar-brand {
     font-weight: bold;
     font-size: 1.5rem;
+    color: #343a40;
+}
+
+#navcolor{
+background-color: #000d85;
+}
+#homecolor{
+color: #ffffff;
+font-size: 1.2em;
+}
+
+img{
+    height: 20px;
+    width: 150px;
 }
 
 /* Estilos para a seção Hero */
@@ -14,7 +28,7 @@ header .navbar-brand {
     background-image: url('background.jpg');
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,7 +54,7 @@ header .navbar-brand {
     transform: translateY(-10px);
 }
 body {
-    background: linear-gradient(to bottom, #aaf2c9, #ffffff); /* Gradiente de verde claro para branco */
+    background: linear-gradient(to bottom, #5a9ff4, #ffffff); /* Gradiente de verde claro para branco */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -62,9 +76,75 @@ body {
 
 /* Fechar o botão do modal */
 .close {
-    color: #aaa;
+    color: #eeeeee;
     float: right;
     font-size: 28px;
     font-weight: bold;
 }
 
+.inVax {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+}
+
+.vaxDate {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vaxDate label {
+    margin-right: 20px;
+}
+
+/* footer */
+footer {
+    background-color: #000d85;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 50px;
+    margin-top: 40px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer img {
+    height: 50px;
+    width: 200px;
+}
+
+footer h4 {
+    border-bottom: 1px solid yellow;
+}
+
+footer .materia {
+    align-self: flex-start;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer td {
+    padding: 0px 20px;
+    text-align: start;
+}
+
+@media (max-width: 700px) {
+    footer {
+        flex-direction: column;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    footer .materia {
+        align-self: center;
+    }
+
+}
+/* Footer */

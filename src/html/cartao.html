@@ -13,9 +13,9 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <nav id="navcolor" class="navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                    <img src="../imagens/logopreto.png" alt="Agência de Saúde" style="height: 40px;">
+                    <img src="../imagens/dengo.png" alt="Agência de Saúde" style="height: 40px;">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -24,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="home.html">Home</a>
+                            <a id="homecolor" class="nav-link" href="home.html">Home</a>
                         </li>
                     </ul>
                 </div>
@@ -55,8 +55,8 @@
                     <div class="card h-100 shadow-sm">
                         <div class="card-body text-center">
                             <i class="fas fa-syringe fa-4x mb-3 text-primary"></i>
-                            <h4 class="card-title">Agendamento de Vacinas</h4>
-                            <p class="card-text">Agende suas vacinas de forma simples e rápida.</p>
+                            <h4 class="card-title">Saiba quando receber a próxima dose</h4>
+                            <p class="card-text">Organize suas vacinas de forma simples e rápida.</p>
                         </div>
                     </div>
                 </div>
@@ -108,6 +108,20 @@
                                 <label for="cepInput">CEP</label>
                                 <input type="text" class="form-control" id="cepInput" required>
                             </div>
+                            <div class="form-group inVax">
+                                <div>
+                                    <input type="radio" name="vaccine" id="dengvaxia" value="Dengvaxia">
+                                    <label for="dengvaxia">Dengvaxia</label>
+                                </div>
+                                <div>
+                                    <input type="radio" name="vaccine" id="qdenga" value="QDenga">
+                                    <label for="qdenga">QDenga</label>
+                                </div>
+                            </div>
+                            <div class="form-group vaxDate">
+                                <label for="vaxDate">Data da Dose: </label>
+                                <input type="date" name="vaxDate" id="vaxDate">
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -129,6 +143,9 @@
             <li><strong><i class="fas fa-user"></i> Nome:</strong> <span id="nome"></span></li>
             <li><strong><i class="fas fa-id-card"></i> CPF:</strong> <span id="cpf"></span></li>
             <li><strong><i class="fas fa-map-marker-alt"></i> CEP:</strong> <span id="cep"></span></li>
+            <li><strong><i class="fas fa-syringe"></i> VACINA:</strong> <span id="vaccine"></span></li>
+            <li><strong><i class="fas fa-calendar-day"></i> DATA DA DOSE:</strong> <span id="date"></span></li>
+            <li><strong><i class="fas fa-syringe"></i> PRÓXIMA DOSE:</strong> <span id="nextDose"></span></li>
             <!-- Adicionar mais informações conforme necessário -->
         </ul>
         <!-- Botão para baixar o cartão -->
@@ -143,11 +160,41 @@
     </div>
 </section>
 
-    <footer class="bg-dark text-white py-4">
-        <div class="container text-center">
-            <p>&copy; 2024 Dengosa. Todos os direitos reservados.</p>
+    <!-- Footer Start -->
+    <footer>
+        <img src="../imagens/dengo.png" alt="Logo Dengosa">
+        <div class="curso">
+            <h4>Gestão de Sistema de Informação</h4>
+            <li>Pontifícia Universidade Católica</li>
+            <li>Belo Horizonte - Minas Gerais</li>
+        </div>
+        <div class="alunos">
+            <h4>Alunos</h4>
+            <table>
+                <tr>
+                    <td>Anderson da Silva</td>
+                    <td>Pedro Araújo </td>
+                    <td>Guilherme Cortezia</td>
+                </tr>
+                <tr>
+                    <td>Carolina Aguiar</td>
+                    <td>Célia Diniz</td>
+                    <td>Guilherme Lacerda</td>
+                </tr>
+                <tr>
+                    <td>Lucas Gentil Lucena</td>
+                    <td> </td>
+                    <td>Lucas Myrrha Gillis</td>    
+                </tr>
+            </table>
+
+        </div>
+        <div class="materia">
+            <h4>Aplicação Web</h4>
+            <p>Professor Nesley</p>
         </div>
     </footer>
+    <!-- Footer End -->
 
     <!-- jQuery e Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>

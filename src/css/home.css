@@ -26,65 +26,24 @@ a:hover {
     opacity: 1;
 }
 
-/* Header */
-header {
-    width: 100%;
-    top: 0;
-    left: 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
-    background-color: #fff;
-    position: sticky;
-}
 
-header a img {
-    width: 150px;
-}
-
-#searchbox {
-    display: flex;
-    align-items: center;
-    height: 100%;
-
-}
-
-#searchbox input,
-#searchbox button {
-    border-radius: 4px;
-}
-
-#searchbox input {
-    margin-left: 5px;
-    text-align: center;
-    border: 1px solid black;
-}
-
-#searchbox button {
-    background-color: #000;
-    color: #fff;
-    cursor: pointer;
-}
-
-@media (max-width: 600px) {
-    header {
-        flex-direction: column;
-        margin-bottom: 10px;
-    }
-}
-
-/* Nav */
 nav {
     background-color: #000d85;
     display: flex;
-    justify-content: end;
+    justify-content: space-around;
     align-items: center;
     height: 2rem;
     padding: 30px 15px;
-    position: fixed;
+    position: sticky;
     width: 100%;
 }
+
+nav img {
+    width: 200px;
+}
+
+
+
 
 @media (max-width: 600px) {
     nav {
@@ -146,6 +105,7 @@ nav ul li .dropdown-menu li {
     color: #fff;
 }
 
+
 /* Main Content */
 main {
     background-image: url('../imagens/background.png');
@@ -153,7 +113,7 @@ main {
     background-repeat: no-repeat;
     background-size: contain;
     padding-top: 20%;
-    margin-top: 60px;
+    
 }
 
 
