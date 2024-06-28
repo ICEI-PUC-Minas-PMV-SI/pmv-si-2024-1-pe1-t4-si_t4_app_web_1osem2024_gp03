@@ -30,7 +30,13 @@ ul{
     flex-wrap: wrap;
 }
 
-
+#Navbar2{
+    background-color: #000d85; 
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
 
 #dropdownMenuButton1{
     padding: 0;
